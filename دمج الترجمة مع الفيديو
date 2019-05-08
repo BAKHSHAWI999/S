@@ -1,0 +1,4 @@
+for %%A IN (*.mkv) do (
+"مسار البرنامج Mkvtoolnix" -o "new-%%~nxA" "%%~A" "%%~nA.ass"
+echo  Replace this Line with your othr commands!
+)
