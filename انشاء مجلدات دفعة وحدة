@@ -1,0 +1,14 @@
+@echo off
+set folder="Name File"
+mkdir %folder%
+cd %folder%
+md ""%folder%" S01"
+md ""%folder%" S02"
+md ""%folder%" S03"
+md ""%folder%" S04"
+md ""%folder%" S05"
+md ""%folder%" S06"
+md ""%folder%" S07"
+md ""%folder%" S08"
+md ""%folder%" S09"
+md ""%folder%" S10"
