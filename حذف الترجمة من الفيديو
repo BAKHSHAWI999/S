@@ -1,0 +1,4 @@
+::remux.bat
+set mkvmerge="مسار البرنامج Mkvtoolnix"
+set output_folder=مسار الاستخراج
+for /r %%a in (*.mkv) do call %mkvmerge% -o "%output_folder%\%%~na.mkv" --no-subtitles "%%a" --track-order 0:0,0:1
