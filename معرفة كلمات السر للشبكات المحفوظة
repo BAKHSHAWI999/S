@@ -1,0 +1,12 @@
+1- نفتح cmd
+
+2- نكتب الامر التالي 
+netsh wlan show profile
+
+3- نختار اسم الشبكة
+
+4- نكتب الامر التالي 
+netsh wlan show profile ( SSID - اسم الشبكة ) key=clear
+
+نكتب الامر بدون الاقواس زي كذا
+netsh wlan show profile SSID key=clear
