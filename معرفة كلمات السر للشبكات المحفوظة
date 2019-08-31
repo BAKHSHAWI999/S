@@ -6,7 +6,7 @@ netsh wlan show profile
 3- راح يظهر اسماء الشبكات المحفوظة
 
 4- نكتب الامر التالي مع اسم الشبكة 
-netsh wlan show profile ( SSID - اسم الشبكة ) key=clear
+netsh wlan show profile ( اسم الشبكة ) key=clear
 
 نكتب الامر بدون الاقواس زي كذا
-netsh wlan show profile SSID key=clear
+netsh wlan show profile ******* key=clear
